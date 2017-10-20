@@ -1,0 +1,154 @@
+Group number 3:
+Supervisor: Sanjana
+Supplier: Rohit
+Worker: Victor
+Inspector: Rahul
+Criterion: 1 Blueprint - A
+
+
+Instructions:
+Restrictions: Must have 9 blocks, and all should have a colored letter on them
+
+
+Supervisor to Supplier:
+	Place block on loading zone.
+Supervisor to Worker:
+	Move block 2 spaces north
+Supervisor to supplier:
+	Place block on loading zone.
+Supervisor to worker:
+	Move block 2 spaces north and place on top of the first block
+Supervisor to supplier:
+	Place block on loading zone.
+Supervisor to worker:
+move block to inspection zone A (2 west, 5 north).
+Supervisor to Inspector:
+	Is there a colored lettered block on top of site A?
+While not true do the steps in the brackets: 
+		{
+Supervisor to worker: 
+	Turn to show all sides. 
+Supervisor to Inspector (ask between every turn):
+	Is there a colored lettered block on top?
+			If yes 
+Break out of while loop
+
+}
+Supervisor to Inspector:
+	Is there a colored lettered block on top?
+If yes: 
+{
+Supervisor to worker:
+	Move block that’s currently on site A, 2 south and 2 east (on the top of the stack)
+}
+Supervisor to supplier:
+	Place block on loading zone
+Supervisor to worker:
+	Move block 1 space north and  one space east.
+Supervisor to supplier:
+	Place block on loading zone.
+Supervisor to worker:
+move block to inspection zone A (2 west, 5 north).
+
+Supervisor to Inspector:
+	Is there a colored lettered block on top of site A?
+While not true do the steps in the brackets: 
+		{
+Supervisor to worker: 
+	Turn to show all sides. 
+Supervisor to Inspector (ask between every turn):
+	Is there a colored lettered block on top?
+			If yes 
+Break out of while loop
+
+}
+Supervisor to Inspector:
+	Is there a colored lettered block on top?
+If yes: 
+{
+Supervisor to worker:
+	Move block 3 space south and  3 spaces east on top of the other block.
+
+
+
+
+
+
+Supervisor to supplier:
+	Place block on loading zone.
+Supervisor to worker:
+move block to inspection zone A (2 west, 5 north).
+
+Supervisor to Inspector:
+	Is there a colored lettered block on top of site A?
+While not true do the steps in the brackets: 
+		{
+Supervisor to worker: 
+	Turn to show all sides. 
+Supervisor to Inspector (ask between every turn):
+	Is there a colored lettered block on top?
+			If yes 
+Break out of while loop
+
+}
+Supervisor to Inspector:
+	Is there a colored lettered block on top?
+If yes: 
+{
+Supervisor to worker:
+	Move block 3 space south and  one space east.
+
+
+Supervisor to supplier:
+	Place block on loading zone.
+Supervisor to worker:
+move block to inspection zone A (2 west, 5 north).
+
+Supervisor to Inspector:
+	Is there a colored lettered block on top of site A?
+While not true do the steps in the brackets: 
+		{
+Supervisor to worker: 
+	Turn to show all sides. 
+Supervisor to Inspector (ask between every turn):
+	Is there a colored lettered block on top?
+			If yes 
+Break out of while loop
+
+}
+Supervisor to Inspector:
+	Is there a colored lettered block on top?
+If yes: 
+{
+Supervisor to worker:
+	Move block 1 space south and  3 space east.
+
+
+
+Supervisor to supplier:
+	Place block on loading zone.
+Supervisor to worker:
+	Move block 3 spaces north and  one space west.
+Supervisor to supplier:
+	Place block on loading zone.
+Supervisor to worker:
+move block to inspection zone A (2 west, 5 north).
+
+Supervisor to Inspector:
+	Is there a colored lettered block on top of site A?
+While not true do the steps in the brackets: 
+		{
+Supervisor to worker: 
+	Turn to show all sides. 
+Supervisor to Inspector (ask between every turn):
+	Is there a colored lettered block on top?
+			If yes 
+Break out of while loop
+
+}
+Supervisor to Inspector:
+	Is there a colored lettered block on top?
+If yes: 
+{
+Supervisor to worker:
+	Move block 1 space south and  one space east.

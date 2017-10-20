@@ -1,0 +1,5 @@
+Cybersecurity Research Project
+
+Prompt: Create a Computational Artifact for submission/class presentation on your topic. Video, animation, voice overs NOT using traditional presentation software such as Presi, PowerPoint, Word, Google Docs, etc is expected. A combination of techniques is advisable. Imagine a video commercial or part of a news broadcast. Use citations in the format you desire. Your presentation should be submitted via Google Classroom as a single file to be played for the class.
+
+Made with Adobe Spark
