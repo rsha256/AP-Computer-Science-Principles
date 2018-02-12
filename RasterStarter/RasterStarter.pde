@@ -1,0 +1,46 @@
+/*******************************************
+ *                                         * 
+ * Raster Image Starter Code               *
+ *                                         *
+ * UTeach CSP                              *
+ * Bradley Beth                            *
+ * rev. 20161123                           * 
+ *                                         *
+ * Extend this code to change pixels'      *
+ * color values.                           *
+ *******************************************/
+
+String pathToImage = 
+  "https://farm5.staticflickr.com/4337/36966505190_3e41e1f8a3.jpg"; //Change this to load a different image
+PImage img;                         //Variable to store an image
+float r, g, b;                      //red, green, blue floating point 
+                                    //"decimal" variables
+void setup()
+{
+  surface.setResizable(true);
+  img = loadImage(pathToImage);              //load the image
+  surface.setSize(img.width, img.height);    //set the window size to match the image
+}
+
+
+void draw()
+{
+  image(img, 0, 0);   //draw the image on the screen at position (0,0)
+  loadPixels();       //'pixels' is now a list of all the pixels in img (in order)
+                      //left to right, top to bottom
+
+  int location = 0;                    //start at the first pixel
+  while (location < pixels.length) 
+  {
+    // Get the R, G, B values from the image
+    r = red  (pixels[location]);
+    g = green(pixels[location]);
+    b = blue (pixels[location]);
+    
+    color newColor = color(r*500, g/200.4, b*100.2);   //create a new color
+    pixels[location] = newColor;       //store the new color  
+    location = location + 1;           //next pixel!
+  }
+  
+    updatePixels();   //update the image
+}
