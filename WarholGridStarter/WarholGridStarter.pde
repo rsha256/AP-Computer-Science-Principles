@@ -46,9 +46,8 @@ void setup()
  imgVar4.filter(POSTERIZE,4);
  imgVar5.filter(BLUR,6);
  imgVar6.filter(DILATE);
+ imgVar7.filter(ERODE);
 
- 
-  
   
   /************************/
   
@@ -59,10 +58,8 @@ void draw()
   /*************************
   Place DYNAMIC filters here
   *************************/
-  
+   imgVar8.filter(BLUR, mouseX/100);
 
-  
-  
   /************************/
    
   //Draw original image
@@ -71,36 +68,36 @@ void draw()
 
   //Draw image variant 1
   image(imgVar1, imgVar1.width, 0);
-  text("variant 1", 5 * imgVar1.width / 4, imgVar1.height - 10);
+  text("THRESHOLD", 5 * imgVar1.width / 4, imgVar1.height - 10);
   
 
   //Draw image variant 2
   image(imgVar2, imgOrig.width+imgVar1.width,0);
-  text("variant 2", 9*imgVar2.width / 4, imgVar2.height - 10);
+  text("GRAY", 9*imgVar2.width / 4, imgVar2.height - 10);
   
   //Draw image variant 3
   image(imgVar3, 0, imgOrig.height);
-  text("variant 3", imgVar3.width / 4,  (2 * imgVar3.height) - 10);
+  text("INVERT", imgVar3.width / 4,  (2 * imgVar3.height) - 10);
   
   //Draw image variant 4
   image(imgVar4, imgVar3.width, imgVar1.height);
-  text("variant 4", 5 * imgVar4.width / 4, (2 * imgVar4.height) - 10);
+  text("POSTERIZE", 5 * imgVar4.width / 4, (2 * imgVar4.height) - 10);
   
   //Draw image variant 5
   image(imgVar5, imgVar3.width+imgVar4.width, imgVar2.height);
-  text("variant 5", 9 * imgVar5.width / 4, (2 * imgVar5.height) - 10);
+  text("BLUR", 9 * imgVar5.width / 4, (2 * imgVar5.height) - 10);
   
   //Draw image variant 6
   image(imgVar6, 0, imgOrig.height+imgVar3.height);
-  text("variant 6",  imgVar6.width / 4, (3 * imgVar6.height) - 10);
+  text("DILATE",  imgVar6.width / 4, (3 * imgVar6.height) - 10);
   
   //Draw image variant 7
   image(imgVar7, imgVar6.width, imgVar1.height+imgVar4.height);
-  text("variant 7", 5 * imgVar7.width / 4, (3 * imgVar7.height) - 10);
+  text("ERODE", 5 * imgVar7.width / 4, (3 * imgVar7.height) - 10);
   
   //Draw image variant 8
   image(imgVar8, imgVar6.width+imgVar7.width, imgVar2.height+imgVar5.height);
-  text("variant 8", 9 * imgVar8.width / 4, (3 * imgVar8.height) - 10);
+  text("DYNAMIC BLUR", 9 * imgVar8.width / 4, (3 * imgVar8.height) - 10);
   
  
   
