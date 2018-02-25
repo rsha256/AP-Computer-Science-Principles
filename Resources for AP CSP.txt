@@ -1,0 +1,92 @@
+AP CSP Resources
+
+Creating infographics/interactive posters/maps
+https://venngage.com/ 
+https://www.canva.com/create/infographics/ (https://www.canva.com for general design creations)
+http://www.easel.ly/ (???)
+https://piktochart.com/ 
+https://infogr.am/ 
+https://play.google.com/store/apps/details?id=mariusSoft.InFotoFree&hl=en 
+http://www.dipity.com/ (timelines)
+http://www.thinglink.com/ 
+https://web.picovico.com/en/home (converts photos to videos)
+https://www.lucidpress.com/ 
+
+Programming (Seen while scoring PT 2016)
+Alice (alice.org) - code to create a story in a 3D environment
+App Inventor (ai2.appinventor.mit.edu) - teach your android phone
+App Lab (code.org/educate/applab) - code.org’s environment to develop online apps
+EarSketch (earsketch.gatech.edu) - make music with code
+Java in BlueJ () - great for students who took APCS A in a prior year
+Java with Greenfoot (greenfoot.org) - use java to make games
+JavaScript (javascript.com) - java without a compiler; used online 
+Karel (karel.sourceforge.net) - Teach Karel the robot to move
+Lego Mindstorms NXT (nxtprograms.com) - For use with lego robots, block-based 
+Pencil Code (pencilcode.net) - use block-based and text language to create art, music, and/or a story
+Processing (processing.org) - learn to code in context of visual arts
+Python (python.org) - code between systems
+R (r-project.org) and RStudio (rstudio.com) - programming language for statisticians (code that plays with data)
+Scratch (scratch.mit.edu) - create characters and narrate their behavior with code
+Snap! (snap.berkeley.edu) - extension of scratch, allows class creation
+Swift (developer.apple.com/swift) - teach your apple device
+Trinket (https://trinket.io/)
+
+For Planning Code
+MindMeister (mindmeister.com) – Create flowcharts and manage projects; online tool is free and easy to use to coordinate moving many people in one direction 
+Padlet (padlet.com) – group think/posting site – ask a question- collect people’s thoughts in a unique way.
+
+Video
+https://www.wevideo.com/ 
+https://screencast-o-matic.com/home
+https://biteable.com/ 
+http://www.kizoa.com/ 
+https://www.tubechop.com/ (chop a section of a YouTube video)
+http://www.animaker.com/ (animated videos)
+http://wideo.co/en/
+https://vimeo.com/home – video editing online; no download required
+http://www.animaker.com/ – Turn still images into a video; Explainer Videos Easil
+http://www.zamzar.com/ - convert a file to a different file type.
+https://www.magisto.com/
+
+For Research 
+Google Search Commands (support.google.com) – to help you search more efficiently.
+ACM Tech News (technews.acm.org) - "Timely information for IT professionals"
+Google Scholar (scholar.google.com) - access research articles to "Stand on the shoulder of giants."
+NPR Tech News (NPR.org) - National Public Radio Tech Segment
+Science Daily (sciencedaily.com) - Latest research news in science, technology, engineering and math.
+TechNewsWorld (http://www.technewsworld.com/ ) 
+
+Other
+Keyword search in Curriculum Framework: http://www.cs.duke.edu/csed/csprinciples/framework/ 
+ClipArt (openclipart.org) – snippets of art being shared for your use
+Common Creative license media search: http://search.creativecommons.org/
+Google Images: https://images.google.com/ To search for a Common Creative license images, search for an image, then on the results page, select Search tools. Under the Usage Rights drop-down, select the appropriate level.  
+Audacity (http://www.audacityteam.org/ ) – Edit sound files; requires a download
+FreeSound (freesound.org) – sounds without copyright worries
+Pixlr (pixlr.com) – picture editing software; edit and add special effects to an image; Download required.
+Tagul (tagul.com) – create interesting word clouds
+Desmos (desmos.com) – Free. Beautiful. Math.  Plotter and tools for investigation.
+Google Books NGram Viewer (books.google.com) – Search books over hundreds of years for word and/or name appearances
+Interactivate (shodor.org/interactivate) – Tools to create using math and science
+Latex to HTML Conversion Tool (codecogs.com) – Change equation to latex for html
+Blown to Bits: (http://www.bitsbook.com/)
+Khan Academy (https://www.khanacademy.org/computing/computer-science) -Great short content videos.
+Exploring Computer Science (http://www.exploringcs.org/ )
+Computer Science Unplugged (http://csunplugged.org/)
+CodeInTheBrowser (http://codeinthebrowser.org/ )
+Warriors of the Net (https://www.youtube.com/watch?v=PBWhzz_Gn10 ) Packet video
+http://generatedata.com/ Generate your own data sets.
+http://www.zamzar.com/ Online file conversion, covering a wide range of different image, document, music, video and compression formats. Free for files up to 100MB
+
+AP CSP Resources
+https://apcommunity.collegeboard.org/web/apcsp 
+http://apcsprinciples.org/
+
+Web Development
+http://www.weebly.com/weebly/onboarding.php
+http://www.aptana.com/
+http://codepen.io/
+
+
+
+
