@@ -1,0 +1,54 @@
+Survey
+1) Define usable in your own words.
+
+Answer: 
+2) Define useful in your own words.
+
+Answer: 
+3) How usable would the receipts from every McDonalds transaction in a day be?
+
+Extremely usable
+Somewhat usable
+Not usable at all
+Answer: 
+4) How usable would your family’s medical records be?
+
+Extremely usable
+Somewhat usable
+Not usable at all
+Answer: 
+5) How useful would 30 random social security numbers be?
+
+Extremely useful
+Somewhat useful
+Not useful at all
+Answer: 
+6) How useful would every grade that you’ve ever received be?
+
+Extremely useful!
+Somewhat useful
+Not useful at all
+Answer: 
+7) How useful would the results from hooking a robot up to a polygraph machine be?
+
+Extremely useful!
+Somewhat useful
+Not useful at all
+Answer: 
+8) Which of these data sets would be the most usable? Why?
+
+the results from hooking a robot up to a polygraph machine
+every grade that you’ve ever received
+30 random social security numbers
+your family’s medical records
+receipts from every McDonalds transaction in a day
+Answer: 
+9) Which of these data sets would be the most useful? Why?
+
+the results from hooking a robot up to a polygraph machine
+every grade that you’ve ever received
+30 random social security numbers
+your family’s medical records
+receipts from every McDonalds transaction in a day
+Answer: 
+
