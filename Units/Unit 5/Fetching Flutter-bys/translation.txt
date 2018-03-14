@@ -1,0 +1,11 @@
+One: 
+Herbivore species: Astraptes SENNOV AND host plant species: Senna papillosa.
+'herbivore species' = 'Astraptes SENNOV' AND 'host plant species' = 'Senna papillosa'
+
+Two:
+Host plant family: Sapindaceae AND wingspan (mm): 59.
+'host plant family' = 'Sapindaceae' AND 'wingspan (mm)' = 59	
+
+Three:
+Primary eco: rain forest AND elevation: <= 300 AND sex: male.
+'primary eco' = 'rain forest' AND elevation <= 300 AND sex = 'male'	
