@@ -16,8 +16,8 @@ import java.util.Scanner;
  * To identify a phone number: query all text on the business card for the following format:
    “__________“
         each underscore ("_") represents one number
-        no spaces or line breaks are allowed for this query
-        The length has to be 10 digits of numbers - no other characters
+        no characters that are not integers should be used (no spaces, dashes, etc)
+        The length has to be 10 digits of numbers
  *
  * To identify a fax number: query all text on the business card for the following format:
    “__________“
@@ -90,3 +90,4 @@ public class DigitizingBusinessCards {
         }
     }
 }
+

@@ -1,0 +1,15 @@
+Terms:
+	Algorithm
+	Sequencing
+	Iteration (repetition)
+	Selection
+	Cybersecurity
+
+CIA: Confidentiality Integrity Availability
+
+DDoS (Distributed Denial-of-Service)-  multiple computers sending repeated invalid requests to
+DoS (Denial-of-Service) – just one computer
+
+Notes:
+	The whole is greater than the sum of its parts
+	Parity Bit - a bit that acts as a check on a set of binary values, calculated in such a way that the number of 1s in the set plus the parity bit should always be even (or occasionally, should always be odd)
