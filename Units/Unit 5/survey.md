@@ -3,7 +3,7 @@
 1) Define usable in your own words.
 
   Answer: A describing word that states an object is able or fit to be used.
-
+<br />
 2) Define useful in your own words.
 
   Answer: Useful means an entity that is helpful.
