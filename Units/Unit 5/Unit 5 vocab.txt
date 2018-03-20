@@ -1,0 +1,20 @@
+1. Anomaly
+2. Cluster
+3. Regression
+4. Useful
+5. Classification
+6. Outliers
+7. Big data
+8. Statistical Analysis
+9. Data Mining
+10. Data Persistance
+11. Data Aggregation
+12. Association
+13. Trends
+14. Utility
+15. Data Visualization
+16. Data Breaches
+17. Associative Rule Mining
+18. Indexing
+19. Data Collection
+20. Data
