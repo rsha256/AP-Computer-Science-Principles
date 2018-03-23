@@ -1,0 +1,9 @@
+1.	Twice volume 
+2.	Half the volume 
+3.	No change. 
+4.	Lower pitch 
+5.	It creates a random drop in pitch of a value less than or equal to 0.1. This leads to weird noise as each waveform is different from the others then. 
+6.	We hear totally random noise as the new pitch is now completely independent of the original song. 
+7.	The music is out of sync with the words. 
+8.	The pitch of the new waveform is related to the original pitch of it and the pitch of the previous waveform. 
+9.	This results in each waveform being more stretched out over time.
