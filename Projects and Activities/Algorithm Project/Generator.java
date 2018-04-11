@@ -1,5 +1,39 @@
 /*
 	Java Implementation
+	
+	
+	1. Write down the name of the website the password is for:
+	Facebook
+	
+	2. Take the first 2 letters of the site name:
+	Facebook -> Fa
+	
+	3. Take the last 2 letters of the site name:
+	Facebook -> ok
+	
+	4. Reverse the two Strings and combine them:
+	ok + Fa -> okFa
+
+	5. Get the length of the site name (Facebook is 8 letters long) and append that number:
+	okFa" + 8 -> okFa8
+	
+	6. add the shift symbol for the site name's length:
+	shift + 8 -> '*'
+   	
+	Current password is: okFa8*
+
+	In order to make it more secure:
+	7. make the first letter of the current password uppercase (O) and append it
+	we now have: okFa8*O
+	
+	8. add the remaining letters like before
+	Your current password is: okFa8*OkFa
+	
+	9. Lastly, add the opposite of your initials
+	John Smith -> SJ
+	
+	10. Add to password
+	Your final password is: okFa8*OkFaSJ
 */
 
 import java.util.ArrayList;
@@ -84,14 +118,14 @@ public class Generator
         }
 
         String partOne = "" + secondToLast + "" + last + "" + first + "" + second + "" + x + "" + symbol + "";
-        String partTwo = "" + upperSecondToLast + "" + last + "" + first + "" + second + "" + initials + ìî;
+        String partTwo = "" + upperSecondToLast + "" + last + "" + first + "" + second + "" + initials + ‚Äú‚Äù;
 
         System.out.print( partOne );
         System.out.print( partTwo );
         System.out.println();
     }
 
-    // The below methods are for splitting the site nameís length if it is greater than 10
+    // The below methods are for splitting the site name‚Äôs length if it is greater than 10
     private static Integer[] getDigits(int num)
     {
         List<Integer> digits = new ArrayList<>();
