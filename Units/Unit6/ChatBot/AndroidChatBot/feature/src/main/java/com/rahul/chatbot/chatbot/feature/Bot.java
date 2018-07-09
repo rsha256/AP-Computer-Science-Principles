@@ -46,7 +46,7 @@ class Bot
                 || statement.contains("hi")
                 || statement.contains("theo")
                 || statement.contains("theodore")) {
-            response = "I, Theodore, \ncontrol the observable Universe \nand all Domains thereof.";
+            response = "Hi, I'm Theodore.";
         } else if (statement.contains("kushagr") || statement.contains("kush")) {
             response = "Kushagr should have added the keywords himself \nso that he would get something cool said about him. \nBut he didn't!";
         } else if (statement.contains("weather") || statement.contains("time")) {
@@ -62,11 +62,11 @@ class Bot
             response = "Tell me more about your pets.";
         } else if (statement.contains("miller")) {
             response = "He sounds like a good teacher.";
-        } else if (statement.contains("why")) {
+        } else if (statement.contains("why") || statement.contains("what")) {
             response = "Don't ask too many questions.";
         } else if (statement.trim().length() == 0) {
             response = "Say something, please.";
-        } else if (statement.contains("I")) {
+        } else if (statement.contains("i")) {
             response = "It is great to see that you're healthy and well!";
         } else {
             response = getRandomResponse();
@@ -95,7 +95,7 @@ class Bot
         }
         else if (whichResponse == 2)
         {
-            response = "Do you really think so?";
+            response = "It is, Isn't it?";
         }
         else if (whichResponse == 3)
         {
